@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="full-screen-container">
+      <div class="login-container">
+        <h1 class="login-title" id="title">Welcome</h1>
+
+        <form class="form" id="form">
+          <div class="input-group">
+            <label id="emailLabel" for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+
+          <!-- <button type="submit" class="login-button"><a href="./quiz.html">LOGIN</a></button> -->
+          <button type="button" class="login-button" id="loginButt">LOGIN</button>
+        </form>
+
+        <div id="gifDiv">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif" alt="">
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
